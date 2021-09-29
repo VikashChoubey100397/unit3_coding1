@@ -50,7 +50,22 @@
          padding: 1rem;
          margin: 2rem;
      }
-
+     button{
+         width: 30rem;
+         margin-left: 10rem;
+         background-color: white;
+         font-size: 2rem;
+         font-weight: bold;
+         padding: 20px 0px;
+         border-radius: 3rem;
+         cursor: pointer;
+     }
+  button:hover{
+      font-size: 3rem;
+      background-color: darkmagenta;
+      color: black;
+      border: 0.3rem solid black;
+  }
 
 
 
@@ -69,12 +84,29 @@
                  <input type="text" id="currency" placeholder="Enter the currency">
                  <input type="number" id="available_qty" placeholder="Enter the available_qty">
                 </form>
+                <button id="btn_add">ADD PRODUCTS</button>
             </div>
         </div>
-    <div class="showProduct">
+    <div id="showProduct">
 
 
     </div>
     </div>
 </body>
 </html>
+<script>
+const btn=document.getElementById("btn_add");
+const product=document.getElementById("showProduct");
+btn.addEventListener("click",()=>{
+
+
+
+
+})
+
+
+
+
+
+
+</script>
